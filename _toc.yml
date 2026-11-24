@@ -29,6 +29,7 @@ parts:
     numbered: True
     chapters:
     - file: notebooks/Curvature.ipynb
+    - file: notebooks/twocomplex.ipynb
   - caption: People and agents
     numbered: True
     chapters:

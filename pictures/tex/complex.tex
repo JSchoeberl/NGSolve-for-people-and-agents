@@ -1,0 +1,11 @@
+\input{pre}
+\begin{document}
+ \begin{tikzcd}
+ H^{1} \arrow{d}{\grad}\arrow{r}{\grad}& H(\curl) \arrow{d}{\deff}\arrow{r}{\curl}& H(\div)\arrow{d}{\dev\grad^T} \arrow{r}{\div} & L^{2}\arrow{d}{\grad}\\
+ H(\curl) \arrow{d}{\curl}\arrow{r}{\deff}& {H}_{cc}(\mathbb{S}) \arrow{d}{\curl^T}\arrow{r}{\curl}&  {H}_{cd}(\mathbb{T})\arrow{d}{\sym\curl^T} \arrow{r}{\div} & H^{-1}(\curl)\arrow{d}{\curl}\\
+ H(\div) \arrow{d}{\div}\arrow{r}{\dev\grad}& {H}_{dc}(\mathbb{T})
+\arrow{d}{\div}\arrow{r}{\sym\curl}& {H}_{dd}(\mathbb{S})
+\arrow{d}{\div} \arrow{r}{\div} & H^{-1}(\div)\arrow{d}{\div} \\
+ L^{2}  \arrow{r}{\grad}& H^{-1}(\curl)  \arrow{r}{\curl}& H^{-1}(\div) \arrow{r}{\div} & H^{-1}
+ \end{tikzcd}
+\end{document}
