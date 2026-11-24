@@ -25,6 +25,7 @@ parts:
     chapters:
     - file: waves/schroedinger.ipynb
     - file: waves/microcavity.ipynb
+    - file: waves/exceptional.ipynb
   - caption: Geometry
     numbered: True
     chapters:
