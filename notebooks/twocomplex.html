@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>10. The 2-complex &#8212; NGSolve for people and agents</title>
+    <title>11. The 2-complex &#8212; NGSolve for people and agents</title>
   
   
   
@@ -66,8 +66,8 @@
     <script>DOCUMENTATION_OPTIONS.search_as_you_type = false;</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="11. NGSolve for people and agents" href="../agents/agents.html" />
-    <link rel="prev" title="9. Computation of Curvature" href="Curvature.html" />
+    <link rel="next" title="12. NGSolve for people and agents" href="../agents/agents.html" />
+    <link rel="prev" title="10. Computation of Curvature" href="Curvature.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -234,15 +234,16 @@
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../waves/schroedinger.html">7. Schrödinger equation: bound states</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../waves/microcavity.html">8. Waves in open systems: scattering and resonances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../waves/exceptional.html">9. An exceptional point in a photonic molecule laser</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Geometry</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="Curvature.html">9. Computation of Curvature</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">10. The 2-complex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Curvature.html">10. Computation of Curvature</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">11. The 2-complex</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">People and agents</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../agents/agents.html">11. NGSolve for people and agents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../agents/agents.html">12. NGSolve for people and agents</a></li>
 </ul>
 
     </div>
@@ -403,8 +404,8 @@
             </div>
             <nav aria-label="Page">
                 <ul class="pst-show_toc_level nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#applications">10.1. Applications</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-n-dimensional-2-complex">10.2. The n-dimensional 2-complex</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#applications">11.1. Applications</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-n-dimensional-2-complex">11.2. The n-dimensional 2-complex</a></li>
 </ul>
             </nav>
         </div>
@@ -417,7 +418,7 @@
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="the-2-complex">
-<h1><span class="section-number">10. </span>The 2-complex<a class="headerlink" href="#the-2-complex" title="Link to this heading">#</a></h1>
+<h1><span class="section-number">11. </span>The 2-complex<a class="headerlink" href="#the-2-complex" title="Link to this heading">#</a></h1>
 <p>The de Rham complex organizes the spaces for scalar and vector fields. Strains, stresses, metrics and curvature are matrix fields.
 Their Sobolev spaces fit into a two-dimensional diagram, the 2-complex:</p>
 <a class="reference internal image-reference" href="../_images/twocomplex.png"><img alt="../_images/twocomplex.png" src="../_images/twocomplex.png" style="width: 80%;" />
@@ -431,16 +432,16 @@ The matrix fields are symmetric (<span class="math notranslate nohighlight">\({\
 </ul>
 <p>J. Gopalakrishnan, K. Hu, J. Schöberl: <em>A 2-complex containing Sobolev spaces of matrix fields</em>, <a class="reference external" href="https://arxiv.org/abs/2507.11869">arXiv:2507.11869</a></p>
 <section id="applications">
-<h2><span class="section-number">10.1. </span>Applications<a class="headerlink" href="#applications" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">11.1. </span>Applications<a class="headerlink" href="#applications" title="Link to this heading">#</a></h2>
 <p>Every arrow is the differential operator of a physical model, and of a finite element method for it:</p>
 <a class="reference internal image-reference" href="../_images/twocomplex_applications.png"><img alt="../_images/twocomplex_applications.png" src="../_images/twocomplex_applications.png" style="width: 100%;" />
 </a>
 <p>The diagonal arrows are second order operators: <span class="math notranslate nohighlight">\(\operatorname{hess} = \operatorname{def} \operatorname{grad}\)</span>, <span class="math notranslate nohighlight">\(\operatorname{inc} = \operatorname{sym} \operatorname{curl}^T \operatorname{curl}\)</span>, and <span class="math notranslate nohighlight">\(\operatorname{div} \operatorname{div}\)</span>.
 They belong to the Hessian complex, the elasticity complex and the <span class="math notranslate nohighlight">\(\operatorname{div} \operatorname{div}\)</span> complex, which are paths through the diagram.</p>
-<p>In this talk: Poisson (<a class="reference internal" href="../intro/poisson.html"><span class="std std-doc">section 1</span></a>), Maxwell (<a class="reference internal" href="../wta/coil.html"><span class="std std-doc">4</span></a>), MCS (<a class="reference internal" href="../wta/tesla.html"><span class="std std-doc">6</span></a>), curvature (<a class="reference internal" href="Curvature.html"><span class="std std-doc">9</span></a>), and the HHJ shell of the Halloween ghost (<a class="reference internal" href="../agents/agents.html"><span class="std std-doc">11</span></a>).</p>
+<p>In this talk: Poisson (<a class="reference internal" href="../intro/poisson.html"><span class="std std-doc">section 1</span></a>), Maxwell (<a class="reference internal" href="../wta/coil.html"><span class="std std-doc">4</span></a>), MCS (<a class="reference internal" href="../wta/tesla.html"><span class="std std-doc">6</span></a>), curvature (<a class="reference internal" href="Curvature.html"><span class="std std-doc">10</span></a>), and the HHJ shell of the Halloween ghost (<a class="reference internal" href="../agents/agents.html"><span class="std std-doc">12</span></a>).</p>
 </section>
 <section id="the-n-dimensional-2-complex">
-<h2><span class="section-number">10.2. </span>The n-dimensional 2-complex<a class="headerlink" href="#the-n-dimensional-2-complex" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">11.2. </span>The n-dimensional 2-complex<a class="headerlink" href="#the-n-dimensional-2-complex" title="Link to this heading">#</a></h2>
 <a class="reference internal image-reference" href="../_images/twocomplex_young.png"><img alt="../_images/twocomplex_young.png" src="../_images/twocomplex_young.png" style="width: 50%;" />
 </a>
 <p>The spaces are represented by Young tableaux. They are spaces of double forms (Calabi 1961; Berchenko-Kogan and Gawlik 2025):</p>
@@ -499,7 +500,7 @@ They belong to the Hessian complex, the elasticity complex and the <span class="
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title"><span class="section-number">9. </span>Computation of Curvature</p>
+        <p class="prev-next-title"><span class="section-number">10. </span>Computation of Curvature</p>
       </div>
     </a>
     <a class="right-next"
@@ -507,7 +508,7 @@ They belong to the Hessian complex, the elasticity complex and the <span class="
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">11. </span>NGSolve for people and agents</p>
+        <p class="prev-next-title"><span class="section-number">12. </span>NGSolve for people and agents</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -529,8 +530,8 @@ They belong to the Hessian complex, the elasticity complex and the <span class="
   </div>
   <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="pst-show_toc_level nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#applications">10.1. Applications</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-n-dimensional-2-complex">10.2. The n-dimensional 2-complex</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#applications">11.1. Applications</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-n-dimensional-2-complex">11.2. The n-dimensional 2-complex</a></li>
 </ul>
   </nav></div>
 
