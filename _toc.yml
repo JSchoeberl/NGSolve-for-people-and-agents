@@ -1,0 +1,35 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: talk_physics.ipynb
+
+parts:
+  - caption: Finite elements
+    numbered: True
+    chapters:
+    - file: intro/poisson.ipynb
+  - caption: Electromagnetics and solid mechanics
+    numbered: True
+    chapters:
+    - file: wta/capacitor.ipynb
+    - file: wta/elasticity3D.ipynb
+    - file: wta/coil.ipynb
+  - caption: De Rham complex and fluid dynamics
+    numbered: True
+    chapters:
+    - file: wta/derham.ipynb
+    - file: wta/tesla.ipynb
+  - caption: Quantum and wave physics
+    numbered: True
+    chapters:
+    - file: waves/schroedinger.ipynb
+    - file: waves/microcavity.ipynb
+  - caption: Geometry
+    numbered: True
+    chapters:
+    - file: notebooks/Curvature.ipynb
+  - caption: People and agents
+    numbered: True
+    chapters:
+    - file: agents/agents.ipynb

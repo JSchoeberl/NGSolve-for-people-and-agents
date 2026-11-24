@@ -1,0 +1,7 @@
+NGSolve – a finite element library for people and agents
+
+This talk introduces the open-source finite element library NGSolve (www.ngsolve.org). Users write field problems in variational form as Python expressions that stay close to the mathematical notation. A parallel C++ kernel then does the computation efficiently. Users build geometric models with Python scripts on top of the OpenCascade geometry kernel.
+
+Examples from several areas of physics show how this works: electromagnetics with Maxwell’s equations, solid mechanics, and curvature computation.
+
+Finally, we present the interfaces that make NGSolve useful to scientists in many fields, and discuss how AI agents can work with the library.

@@ -1,0 +1,31 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: NGSolve for people and agents
+author: J. Schöberl
+copyright : "2026"
+only_build_toc_files: true
+
+repository:
+  url: https://github.com/JSchoeberl/NGSolve-for-people-and-agents
+
+execute:
+  execute_notebooks: auto
+  timeout: 900
+
+html:
+  use_issues_button: false
+  use_repository_button: true
+
+sphinx:
+  config:
+    html_extra_path: ['_extra']   # copies the ghost movie to _build/html/agents
+
+parse:
+  myst_enable_extensions:
+    - html_image
+    - dollarmath
+    - amsmath
+    - linkify
+    - colon_fence
+  myst_dmath_double_inline: true
