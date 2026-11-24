@@ -222,21 +222,27 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Electromagnetics and solid mechanics</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="wta/coil.html">2. Magnetostatics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="wta/capacitor.html">2. The electric field in a capacitor</a></li>
 <li class="toctree-l1"><a class="reference internal" href="wta/elasticity3D.html">3. 3D Solid Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="wta/coil.html">4. Magnetostatics</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">De Rham complex and fluid dynamics</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="wta/derham.html">5. The de Rham complex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="wta/tesla.html">6. Tesla Valve</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Quantum and wave physics</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="waves/schroedinger.html">4. Schrödinger equation: bound states</a></li>
-<li class="toctree-l1"><a class="reference internal" href="waves/microcavity.html">5. Waves in open systems: scattering and resonances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="waves/schroedinger.html">7. Schrödinger equation: bound states</a></li>
+<li class="toctree-l1"><a class="reference internal" href="waves/microcavity.html">8. Waves in open systems: scattering and resonances</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Geometry</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="notebooks/Curvature.html">6. Computation of Curvature</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/Curvature.html">9. Computation of Curvature</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">People and agents</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="agents/agents.html">7. NGSolve for people and agents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="agents/agents.html">10. NGSolve for people and agents</a></li>
 </ul>
 
     </div>
@@ -448,33 +454,45 @@ TU Wien and CERBSim GmbH</p>
 <td><p>weak form, Galerkin, Poisson in NGSolve</p></td>
 </tr>
 <tr class="row-odd"><td><p>2</p></td>
-<td><p><a class="reference internal" href="wta/coil.html"><span class="std std-doc">Magnetostatics</span></a></p></td>
-<td><p>Maxwell, <span class="math notranslate nohighlight">\(H(\operatorname{curl})\)</span> elements, field lines</p></td>
+<td><p><a class="reference internal" href="wta/capacitor.html"><span class="std std-doc">Electric field in a capacitor</span></a></p></td>
+<td><p>electrostatics, corner singularities, hp-refinement, curved elements</p></td>
 </tr>
 <tr class="row-even"><td><p>3</p></td>
 <td><p><a class="reference internal" href="wta/elasticity3D.html"><span class="std std-doc">Solid mechanics</span></a></p></td>
 <td><p>CAD, curved elements, BDDC</p></td>
 </tr>
 <tr class="row-odd"><td><p>4</p></td>
+<td><p><a class="reference internal" href="wta/coil.html"><span class="std std-doc">Magnetostatics</span></a></p></td>
+<td><p>Maxwell, <span class="math notranslate nohighlight">\(H(\operatorname{curl})\)</span> elements, field lines</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p><a class="reference internal" href="wta/derham.html"><span class="std std-doc">The de Rham complex</span></a></p></td>
+<td><p>finite element spaces, conservation laws, Piola transformation</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p><a class="reference internal" href="wta/tesla.html"><span class="std std-doc">Tesla valve</span></a></p></td>
+<td><p>Navier-Stokes, <span class="math notranslate nohighlight">\(H(\operatorname{div})\)</span>-conforming HDG, flow through a fan</p></td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
 <td><p><a class="reference internal" href="waves/schroedinger.html"><span class="std std-doc">Schrödinger equation</span></a></p></td>
 <td><p>harmonic oscillator, quantum billiards, level statistics</p></td>
 </tr>
-<tr class="row-even"><td><p>5</p></td>
+<tr class="row-odd"><td><p>8</p></td>
 <td><p><a class="reference internal" href="waves/microcavity.html"><span class="std std-doc">Scattering and resonances</span></a></p></td>
 <td><p>Helmholtz, PML, disordered medium, limaçon microcavity</p></td>
 </tr>
-<tr class="row-odd"><td><p>6</p></td>
+<tr class="row-even"><td><p>9</p></td>
 <td><p><a class="reference internal" href="notebooks/Curvature.html"><span class="std std-doc">Curvature</span></a></p></td>
 <td><p>Gauss curvature of surfaces and of Regge metrics</p></td>
 </tr>
-<tr class="row-even"><td><p>7</p></td>
+<tr class="row-odd"><td><p>10</p></td>
 <td><p><a class="reference internal" href="agents/agents.html"><span class="std std-doc">People and agents</span></a></p></td>
 <td><p>Claude on legacy code, the Halloween ghost, NGSolve with your agent</p></td>
 </tr>
 </tbody>
 </table>
 </div>
-<!-- timing for 50 min: 1: 10 min, 2-3: 7 min, 4: 8 min, 5: 10 min, 6: 6 min, 7: 7 min --></section>
+<!-- timing, adds up to 58 min, needs cuts for 50: 1: 9 min, 2: 3 min, 3-4: 7 min, 5: 4 min, 6: 4 min, 7: 8 min, 8: 10 min, 9: 6 min, 10: 7 min --></section>
 <section id="what-makes-it-different">
 <h2>What makes it different<a class="headerlink" href="#what-makes-it-different" title="Link to this heading">#</a></h2>
 <ul class="simple">
@@ -498,6 +516,8 @@ TU Wien and CERBSim GmbH</p>
 <li><p><a class="reference external" href="https://cerbsim.com">CERBSim GmbH</a>: support, training and custom development for Netgen/NGSolve</p></li>
 </ul>
 </section>
+<div class="toctree-wrapper compound">
+</div>
 <div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
