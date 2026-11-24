@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>10. NGSolve for people and agents &#8212; NGSolve for people and agents</title>
+    <title>11. NGSolve for people and agents &#8212; NGSolve for people and agents</title>
   
   
   
@@ -66,7 +66,7 @@
     <script>DOCUMENTATION_OPTIONS.search_as_you_type = false;</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="9. Computation of Curvature" href="../notebooks/Curvature.html" />
+    <link rel="prev" title="10. The 2-complex" href="../notebooks/twocomplex.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -237,10 +237,11 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Geometry</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../notebooks/Curvature.html">9. Computation of Curvature</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notebooks/twocomplex.html">10. The 2-complex</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">People and agents</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">10. NGSolve for people and agents</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">11. NGSolve for people and agents</a></li>
 </ul>
 
     </div>
@@ -401,13 +402,13 @@
             </div>
             <nav aria-label="Page">
                 <ul class="pst-show_toc_level nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-we-use-claude-on-the-netgen-ngsolve-code-base">10.1. How we use Claude on the Netgen/NGSolve code base</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-a-halloween-ghost-technical-note-2026-04">10.2. Example: a Halloween ghost (Technical Note 2026-04)</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-inside">10.2.1. What is inside</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-the-note-records-from-the-iterations">10.2.2. What the note records from the iterations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-we-use-claude-on-the-netgen-ngsolve-code-base">11.1. How we use Claude on the Netgen/NGSolve code base</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-a-halloween-ghost-technical-note-2026-04">11.2. Example: a Halloween ghost (Technical Note 2026-04)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-inside">11.2.1. What is inside</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-the-note-records-from-the-iterations">11.2.2. What the note records from the iterations</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#use-ngsolve-with-your-own-agent">10.3. Use NGSolve with your own agent</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#use-ngsolve-with-your-own-agent">11.3. Use NGSolve with your own agent</a></li>
 </ul>
             </nav>
         </div>
@@ -420,9 +421,9 @@
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="ngsolve-for-people-and-agents">
-<h1><span class="section-number">10. </span>NGSolve for people and agents<a class="headerlink" href="#ngsolve-for-people-and-agents" title="Link to this heading">#</a></h1>
+<h1><span class="section-number">11. </span>NGSolve for people and agents<a class="headerlink" href="#ngsolve-for-people-and-agents" title="Link to this heading">#</a></h1>
 <section id="how-we-use-claude-on-the-netgen-ngsolve-code-base">
-<h2><span class="section-number">10.1. </span>How we use Claude on the Netgen/NGSolve code base<a class="headerlink" href="#how-we-use-claude-on-the-netgen-ngsolve-code-base" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">11.1. </span>How we use Claude on the Netgen/NGSolve code base<a class="headerlink" href="#how-we-use-claude-on-the-netgen-ngsolve-code-base" title="Link to this heading">#</a></h2>
 <p>Netgen/NGSolve is C++ with Python bindings, grown over more than 20 years. Agents now work on it with us:</p>
 <ul class="simple">
 <li><p><strong>Read and explain legacy code</strong>: what an old routine does, who calls it, which invariants it relies on</p></li>
@@ -433,11 +434,11 @@
 </ul>
 <!-- TODO Joachim: add your own numbers here (commits, bugs fixed, speed-ups merged) --></section>
 <section id="example-a-halloween-ghost-technical-note-2026-04">
-<h2><span class="section-number">10.2. </span>Example: a Halloween ghost (Technical Note 2026-04)<a class="headerlink" href="#example-a-halloween-ghost-technical-note-2026-04" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">11.2. </span>Example: a Halloween ghost (Technical Note 2026-04)<a class="headerlink" href="#example-a-halloween-ghost-technical-note-2026-04" title="Link to this heading">#</a></h2>
 <p><video src="ghost.mp4" width="300" controls autoplay loop muted></video></p>
 <p>A sheet with eyes and mouth falls onto an invisible sphere and is dragged around by it. Done on October 31, together with an agent, from the idea to the movie.</p>
 <section id="what-is-inside">
-<h3><span class="section-number">10.2.1. </span>What is inside<a class="headerlink" href="#what-is-inside" title="Link to this heading">#</a></h3>
+<h3><span class="section-number">11.2.1. </span>What is inside<a class="headerlink" href="#what-is-inside" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>nonlinear shell: hybridized <strong>Hellan–Herrmann–Johnson</strong> bending, membrane strain by <strong>Regge interpolation</strong> (no membrane locking), neo-Hooke</p></li>
 <li><p>frictional <strong>contact</strong> with the moving head (penalty), gravity, air drag</p></li>
@@ -447,7 +448,7 @@
 </ul>
 </section>
 <section id="what-the-note-records-from-the-iterations">
-<h3><span class="section-number">10.2.2. </span>What the note records from the iterations<a class="headerlink" href="#what-the-note-records-from-the-iterations" title="Link to this heading">#</a></h3>
+<h3><span class="section-number">11.2.2. </span>What the note records from the iterations<a class="headerlink" href="#what-the-note-records-from-the-iterations" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>St. Venant–Kirchhoff lost convexity at the tips of the holes, Newton stalled: switched to neo-Hooke</p></li>
 <li><p>the heavy hem folded through itself, an element inverted: added air drag</p></li>
@@ -459,7 +460,7 @@
 </section>
 </section>
 <section id="use-ngsolve-with-your-own-agent">
-<h2><span class="section-number">10.3. </span>Use NGSolve with your own agent<a class="headerlink" href="#use-ngsolve-with-your-own-agent" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">11.3. </span>Use NGSolve with your own agent<a class="headerlink" href="#use-ngsolve-with-your-own-agent" title="Link to this heading">#</a></h2>
 <p>NGSolve fits agents well:</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">ngsolve</span></code>, runs headless, a model is a short Python script</p></li>
@@ -509,12 +510,12 @@
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../notebooks/Curvature.html"
+       href="../notebooks/twocomplex.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title"><span class="section-number">9. </span>Computation of Curvature</p>
+        <p class="prev-next-title"><span class="section-number">10. </span>The 2-complex</p>
       </div>
     </a>
 </div>
@@ -535,13 +536,13 @@
   </div>
   <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="pst-show_toc_level nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-we-use-claude-on-the-netgen-ngsolve-code-base">10.1. How we use Claude on the Netgen/NGSolve code base</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-a-halloween-ghost-technical-note-2026-04">10.2. Example: a Halloween ghost (Technical Note 2026-04)</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-inside">10.2.1. What is inside</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-the-note-records-from-the-iterations">10.2.2. What the note records from the iterations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-we-use-claude-on-the-netgen-ngsolve-code-base">11.1. How we use Claude on the Netgen/NGSolve code base</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-a-halloween-ghost-technical-note-2026-04">11.2. Example: a Halloween ghost (Technical Note 2026-04)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-inside">11.2.1. What is inside</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-the-note-records-from-the-iterations">11.2.2. What the note records from the iterations</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#use-ngsolve-with-your-own-agent">10.3. Use NGSolve with your own agent</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#use-ngsolve-with-your-own-agent">11.3. Use NGSolve with your own agent</a></li>
 </ul>
   </nav></div>
 
